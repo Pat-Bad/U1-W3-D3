@@ -11,16 +11,15 @@ listForm.addEventListener('submit', function (e) {
 
   const newThing = document.createElement('p')
   newThing.innerText = stringValue
-  newThing.setAttribute = 'nuovo'
 
   itemI.appendChild(newThing)
 
   addedItem.appendChild(itemI)
 
   listForm.reset()
-})
 
-const paragraphs = document.forEach('nuovo')
-paragraphs.addEventListener('click', function () {
-  paragraphs.classList.add('barrato')
+  newThing.addEventListener(
+    'click',
+    (e) => (newThing.style.textDecoration = 'line-through')
+  )
 })
