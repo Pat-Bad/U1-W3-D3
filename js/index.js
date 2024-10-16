@@ -11,6 +11,7 @@ listForm.addEventListener('submit', function (e) {
 
   const newThing = document.createElement('p')
   newThing.innerText = stringValue
+  newThing.setAttribute = 'nuovo'
 
   itemI.appendChild(newThing)
 
@@ -19,7 +20,7 @@ listForm.addEventListener('submit', function (e) {
   listForm.reset()
 })
 
-const paragraphs = document.querySelector('stringValue')
-stringValue.addEventListener('click', function () {
-  stringValue.classList.add('barrato')
+const paragraphs = document.querySelector('nuovo')
+paragraphs.addEventListener('click', function () {
+  paragraphs.classList.add('barrato')
 })
