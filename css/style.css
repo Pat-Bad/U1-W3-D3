@@ -1,0 +1,29 @@
+html{background-color:beige;
+font-family:Arial, Helvetica, sans-serif}
+
+h1{color:orange;
+text-align:center;
+margin-top:2rem;
+
+}
+
+header p {font-style: italic;
+text-align:center;
+font-size:0.8rem;}
+
+form{
+    text-align:center;
+    margin-top:5rem;
+}
+button{
+    margin:0.5rem;
+}
+
+.listItem{list-style-type: none;
+   text-align:center;
+    color: orange;
+}
+
+.barrato{
+    text-decoration:line-through;
+}
