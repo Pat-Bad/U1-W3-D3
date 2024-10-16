@@ -20,7 +20,7 @@ listForm.addEventListener('submit', function (e) {
   listForm.reset()
 })
 
-const paragraphs = document.querySelector('nuovo')
+const paragraphs = document.forEach('nuovo')
 paragraphs.addEventListener('click', function () {
   paragraphs.classList.add('barrato')
 })
